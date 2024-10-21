@@ -5,7 +5,7 @@ const History: React.FC = () => {
   const [history] = useAtom(historyAtom);
 
   return (
-    <div className="mt-6 p-4 bg-gray-700 rounded shadow-lg max-w-xs mx-auto">
+    <div className="p-4 left-0 top-0 bg-gray-700 shadow-lg min-w-[200px]">
       <h2 className="text-white text-lg mb-2">History</h2>
       <ul className="text-white">
         {history.map((entry, index) => (

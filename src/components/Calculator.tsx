@@ -48,7 +48,7 @@ const Calculator: React.FC = () => {
 
   return (
     <motion.div
-      className="w-full max-w-xs p-6 bg-gray-800 rounded-lg shadow-md mx-auto"
+      className="max-w-[450px] min-w-[300px] p-4 bg-gray-800 rounded-lg shadow-md"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
